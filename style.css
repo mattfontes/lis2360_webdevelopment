@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Syle sheet created by Matt Fontes */
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #0010E8;
+	background-color: #A4D4FF;
+	padding: 0 40px;
+}
+
+/* text styles */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #E4E4F7;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #0010E8;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles */
+a:link {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #E4E4F7; 
+	text-decoration: none;
+}
+a:hover {
+	color: #0010E8;
+}
+
+/* list and table styles */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #0010E8 1px;
+}
+td {
+	padding: 6px;
+	border: solid #0010E8 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #E4E4F7;
+	text-align: center;
+	padding: 6px;
+	border: solid #0010E8 1px;
+}
+
+/* border styles */
+hr {
+	border: solid #0010E8 1px;
+}
+
+img {
+	border: solid #0010E8 1px;
+
+}
+
+iframe {
+	border: solid #0010E8 1px;
+	padding: 8px;
+	margin: 8px;
+}
