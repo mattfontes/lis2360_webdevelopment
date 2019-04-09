@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Syle sheet created by Matt Fontes */
+/* Syle sheet created by Matt Fontes */ 
 
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
@@ -55,7 +55,7 @@ a:hover {
 	color: #0010E8;
 }
 
-/* list and table styles */
+/* list styles */
 ul li {
 	list-style-image: url(images/star.png);
 	margin-left: 12px;
@@ -64,7 +64,7 @@ ol {
 	margin-left: 14px;
 }
 
-/* table styles -------------------------------------- */
+/* table styles */
 table {
 	border: solid #0010E8 1px;
 }
