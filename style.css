@@ -95,3 +95,44 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+
+/* DIV Page Style Layout */
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #A4D4FF; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #A4D4FF;
+	border-bottom: 1px solid #A4D4FF;
+}
+#content { 
+	width: 590px;
+	float: left; 
+	padding-bottom: 60px;
+}
+#sidebar { 
+	width: 300px; 
+	float: left;
+	margin-top: 30px;
+	margin-right: 45px;
+	box-shadow: 10px 10px 5px #888888;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #A4D4FF;
+	border-top: 1px solid #0010E8;
+}
+#footer p {
+	margin: 5;
+	padding: 10px;
+} 
